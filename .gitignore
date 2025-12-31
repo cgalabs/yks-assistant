@@ -18,3 +18,7 @@ logs/
 
 # Project specific
 .request_count
+node_modules/
+dist/
+build/
+.next/

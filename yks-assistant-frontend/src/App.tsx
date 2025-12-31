@@ -14,11 +14,14 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
+import { WarningPopup } from "@/components/WarningPopup";
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      <WarningPopup />
       <BrowserRouter>
         <AppLayout>
           <Routes>
