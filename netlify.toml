@@ -1,0 +1,13 @@
+[build]
+  base = "yks-assistant-frontend"
+  publish = "dist"
+  command = "npm ci && npm run build"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# SPA routing - tüm route'ları index.html'e yönlendir
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
