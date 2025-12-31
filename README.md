@@ -1,7 +1,5 @@
 # YKS AI Asistan
 
-# YKS AI Asistan
-
 YKS (TYT/AYT) öğrencileri için geliştirilmiş, yapay zeka destekli soru çözme ve koçluk asistanı. 
 **Not:** Modeller şu an için özellikle **TYT Matematik** üzerine özelleştirilmiştir.
 
